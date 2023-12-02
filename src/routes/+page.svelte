@@ -191,7 +191,7 @@
 				</button>
 			</div>
 		</div>
-		<div class="span-2 right flex" style="justify-items: end">
+		<div class="span-2 sm-span-1 right flex" style="justify-items: end">
 			{#if selected}
 				<button class="btn primary txt-black" type="submit" on:click={handleSubmit}
 					>Traducir <i class="bx bx-message-alt-check" /></button
