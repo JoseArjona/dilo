@@ -40,7 +40,7 @@
 		}
 	}
 
-	/* 	onMount(() => {
+	onMount(() => {
 		const lang = navigator.language;
 		if (lang === 'en') {
 			language = 'eng_Latn';
@@ -63,7 +63,7 @@
 				error: 'error'
 			});
 		}
-	}); */
+	});
 
 	const fetchTranslate = async () => {
 		const response = await fetch('/translate', {
